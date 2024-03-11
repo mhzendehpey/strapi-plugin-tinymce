@@ -26,11 +26,11 @@ Inside your Strapi app, add the package:
 
 With `npm`:
 ```bash
-npm install @sklinet/strapi-plugin-tinymce
+npm install @kookaat/strapi-plugin-tinymce
 ```
 With `yarn`:
 ```bash
-yarn add @sklinet/strapi-plugin-tinymce
+yarn add @kookaat/strapi-plugin-tinymce
 ```
 
 In `config/plugins.js` file add:
@@ -172,6 +172,6 @@ module.exports = ({ env }) => ({
 ## <a id="requirements"></a>⚠️ Requirements
 Strapi **v4.x.x+**
 
-Node **14 - 16**
+Node **14 - 20**
 
 Tested on **v4.3.4**
